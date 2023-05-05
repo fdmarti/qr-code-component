@@ -9,6 +9,11 @@
 body {
   font-family: 'Outfit', sans-serif;
   background-color: var(--lightGray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
 }
 
 p {
@@ -21,22 +26,23 @@ img {
 }
 
 .card {
-  min-height: 300px;
-  max-width: 300px;
+  min-height: 400px;
+  max-width: 250px;
   background-color: var(--white);
   padding: 30px;
   border-radius: 10px;
-  margin: 50px auto;
+  margin: 0 10px;
 }
 
 .qr-code-container{
-  padding: 20px;
+  padding: 30px;
   background-color: var(--qrBlue);
   border-radius: 10px;
 }
 
-.title-qr p {
+h1 {
   font-size: 22px;
+  text-align: center;
   font-weight: 700;
   color: var(--darkBlue);
 }
